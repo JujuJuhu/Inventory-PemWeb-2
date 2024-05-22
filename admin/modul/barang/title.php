@@ -205,23 +205,19 @@
 
 
 
+    <small id="emailHelp" class="form-text text-muted"></small>
+  </div>
   
   <div class="form-group">
 
-    <small id="emailHelp" class="form-text text-muted"></small>
-    <label for="exampleInputEmail1">Status :</label>
-    <select name="status_barang" id="status_barang">
-        <option value="1">Available</option>
-        <option value="0">Not Available</option>
-    </select>
+<small id="emailHelp" class="form-text text-muted"></small>
+<label for="exampleInputEmail1">Status :</label>
+<select name="status_barang" id="status_barang">
+    <option value="1">Available</option>
+    <option value="0">Not Available</option>
+</select>
 
-  </div>
-
-
-
-    <small id="emailHelp" class="form-text text-muted"></small>
-  </div>
-  
+</div>
 
       </div>
       <div class="modal-footer">
@@ -294,6 +290,28 @@
       </div>
     </div>
 
+    <!-- footer -->
+    <footer class="footer container">
+  
+  <section class="col-sm-12" style="margin-top: 50px;">
+  <div class="col-lg-10 col-lg-offset-1 text-center" position="fixed">
+  <br>
+  <ul class="list-inline">
+  <li>
+  <a href="https://www.facebook.com/juju.juhu/" target="_blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+  </li>
+  <li>
+  <a href="https://github.com/JujuJuhu" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
+  </li>
+  <li>
+  <a href="https://www.linkedin.com/in/jovitakhu/" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+  </li>
+  </ul>
+  <hr class="medium">
+  <p class="text-muted" style="font-size: 16px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Jovita Kusuma. All rights reserved</p>
+  </div>
+  </section>
+  </footer>
 
     <!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>

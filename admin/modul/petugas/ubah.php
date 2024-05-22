@@ -137,17 +137,28 @@
 
 
     <!-- Footer -->
-    <footer class="text-center">
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-            <p class="text-muted" style="font-size: 16px;">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Muhamad Zibran Fitadiyatama. All rights reserved</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+ <!-- footer -->
+ <footer class="footer container">
+  
+  <section class="col-sm-12" style="margin-top: 50px;">
+  <div class="col-lg-10 col-lg-offset-1 text-center" position="fixed">
+  <br>
+  <ul class="list-inline">
+  <li>
+  <a href="https://www.facebook.com/juju.juhu/" target="_blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+  </li>
+  <li>
+  <a href="https://github.com/JujuJuhu" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
+  </li>
+  <li>
+  <a href="https://www.linkedin.com/in/jovitakhu/" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+  </li>
+  </ul>
+  <hr class="medium">
+  <p class="text-muted" style="font-size: 16px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Jovita Kusuma. All rights reserved</p>
+  </div>
+  </section>
+  </footer>
 
     <!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>
