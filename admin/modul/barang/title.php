@@ -144,6 +144,7 @@
   <div class="form-group">
     <label for="exampleInputEmail1">Satuan Barang</label>
     <select class="form-control" name="satuan_barang" required="">
+
    <?php 
 
     include '../koneksi.php';
@@ -202,10 +203,18 @@
     <small id="emailHelp" class="form-text text-muted">Masukkan Harga Beli</small>
   </div>
 
+
+
+  
   <div class="form-group">
-    <label for="exampleInputEmail1">Status Barang</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" name="status_barang" aria-describedby="emailHelp" placeholder="Masukkan Stok Barang">
-    <small id="emailHelp" class="form-text text-muted">Masukkan Status Barang</small>
+
+    <small id="emailHelp" class="form-text text-muted"></small>
+    <label for="exampleInputEmail1">Status :</label>
+    <select name="status_barang" id="status_barang">
+        <option value="1">Available</option>
+        <option value="0">Not Available</option>
+    </select>
+
   </div>
 
 
